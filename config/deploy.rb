@@ -1,7 +1,7 @@
 # Change these
 server '67.205.167.38', port: 80, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:johnlin1214/ocean_landing.git'
+set :repo_url,        'https://github.com/johnlin1214/ocean_landing.git'
 set :application,     'ocean_landing'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
